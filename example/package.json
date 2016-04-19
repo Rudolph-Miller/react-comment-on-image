@@ -1,0 +1,23 @@
+{
+  "name": "react-comment-on-image-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "author": "Rudolph-Miller",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.0.1",
+    "react-comment-on-image": "file:..",
+    "react-dom": "^15.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.6",
+    "babel-loader": "^6.2.4",
+    "webpack": "^1.13.0"
+  }
+}
